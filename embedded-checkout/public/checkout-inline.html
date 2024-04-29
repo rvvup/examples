@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inline Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://checkout.sandbox.rvvup.com/sdk/v1.js"></script>
+    <script src="/checkout-inline.js" defer></script>
+  </head>
+  <body class="min-w-dvw min-h-dvh flex justify-center items-center w-full">
+    <div
+      class="min-h-dvh text-sm flex flex-col w-full md:w-auto md:flex-row"
+    >
+      <div class="p-4">
+        <h1 class="font-semibold text-xl mb-4">Checkout</h1>
+        <div class="flex flex-col gap-x-6 w-40">
+          <img src="https://placehold.co/200x200" alt="Product" class="w-full bg-zinc-100" />
+            <div class="mt-2 font-semibold text-zinc-900">
+              Acme Mug
+            </div>
+        </div>
+      </div>
+      <div class="md:min-w-[500px] md:border-l-solid md:border-l md:border-t-0 border-t-solid border-t border-zinc-200" id="checkout-container"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rvvup Samples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-w-dvw min-h-dvh bg-zinc-200 flex justify-center items-center w-full">
+    <div
+      class="max-w-md flex-auto overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-lg ring-1 ring-zinc-900/5"
+    >
+      <div class="p-4">
+        <div class="ml-4 text-zinc-600 font-bold mb-2">Embedded Checkout</div>
+        <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-zinc-100">
+          <div
+            class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-zinc-50 group-hover:bg-white"
+          >
+            <svg
+              class="h-6 w-6 text-zinc-600 group-hover:text-teal-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="/checkout-inline.html" class="font-semibold text-zinc-900">
+              Inline
+              <span class="absolute inset-0"></span>
+            </a>
+            <p class="mt-1 text-zinc-600">Show the checkout in the page</p>
+          </div>
+        </div>
+        <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-zinc-100">
+          <div
+            class="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-zinc-50 group-hover:bg-white"
+          >
+            <svg
+              class="h-6 w-6 text-zinc-600 group-hover:text-teal-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="/checkout-overlay.html" class="font-semibold text-zinc-900">
+              Overlay
+              <span class="absolute inset-0"></span>
+            </a>
+            <p class="mt-1 text-zinc-600">Show checkout as a popup on the page</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

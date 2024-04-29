@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://checkout.sandbox.rvvup.com/sdk/v1.js"></script>
+    <script src="/checkout-overlay.js" defer></script>
+  </head>
+  <body class="min-w-dvw min-h-dvh bg-zinc-200 flex justify-center items-center w-full">
+    <div
+      class="max-w-md flex-auto overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-lg ring-1 ring-zinc-900/5"
+    >
+      <div class="flex flex-col gap-x-6">
+        <img src="https://placehold.co/300x300" alt="Product" class="w-full bg-zinc-100" />
+        <div class=" px-6 py-4">
+          <div class="font-semibold text-zinc-900">
+            Acme Mug
+          </div>
+          <p class="mt-1 mb-4 text-zinc-600">This is my awesome mug</p>
+          <button id="checkout-button" class="font-semibold text-zinc-900 rounded-lg bg-[#faedf7] hover:bg-[#970272] hover:text-white px-4 py-2 border border-solid border-[#f6dbef] transition-all">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
